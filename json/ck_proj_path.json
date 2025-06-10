@@ -1,0 +1,19 @@
+{
+	"#name#"		: "json_name.json",
+	"prj_folder"	: "/proj_path",
+	"#multiplex"	: 
+	{ 
+		"position"	: "url_mux_gsheet",
+		"#binding"	: "none, left, right, left_right or tuples like [('brd1.u1', 'brd1.u2',...),(..)]",
+		"binding"	: "right" 
+	},
+	"gsheet_url"	: "clock_setup_gsheet",
+	"allegro"			: "/cdns_path/allegro.exe -product Allegro_Venture_PCB_Designer",
+	"#spdlinks"		: "/cdns_path/SPDLinks.exe -PSSLNK",
+	"powersi"			: "/cdns_path/PowerSI.exe -PSPowerSI_II -b",
+	"powerdc"			: "/cdns_path/PowerDC.exe -PSPowerDC -b",
+	"clarity"			: "/cdns_path/Clarity3DLayout.exe -PSCLarity_3DSolverG",
+	"ansysedt"		: "/anss_path/ansysedt.exe",
+	"amm_library"	: "/gdrive/amm_library.amm",
+	"ibs_library"	: "url_ibis_gsheet"
+} 
